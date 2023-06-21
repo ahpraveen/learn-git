@@ -79,3 +79,10 @@ git stash show
 
 git stash clear
 
+--- to review list of previous commits
+
+git log
+
+--- to view difference between two commit
+
+git diff <commitid-a> <commitid-b>
