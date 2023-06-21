@@ -18,9 +18,11 @@ git add <filename>
 
 git commit -m "initial commit"
 
-git remote add <http://github.com/myrep.git>
+git remote add origin <http://github.com/myrep.git>
 
 git push origin -u master
+
+git branch -M main
 
 git branch (to list the branch locally)
 
