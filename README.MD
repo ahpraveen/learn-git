@@ -27,7 +27,7 @@ git branch -M main
 
 git add --all or specific file name
 
-git add <filename>
+git add filename
 
 git commit -m "initial commit"
 
@@ -85,4 +85,4 @@ git log
 
 --- to view difference between two commit
 
-git diff <commitid-a> <commitid-b>
+git diff commitid-a  commitid-b
