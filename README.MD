@@ -10,6 +10,12 @@ Git operates a distributed source control system.
 
 ## Useful git commands
 
+git config --global user.name "myusername"
+
+git config --global user.email "example@example.com"
+
+git config --global credential.github.com.useHttpPath true
+
 git init    -- initialize git repository
 
 git add --all or specific file name
@@ -48,8 +54,4 @@ git branch | grep "ops-*"
 
 git branch | grep "ops-*" | xargs git branch -D
 
-git config --global user.name "myusername"
 
-git config --global user.email "example@example.com"
-
-git config --global credential.github.com.useHttpPath true
