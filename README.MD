@@ -10,7 +10,9 @@ Git operates a distributed source control system.
 
 ## Useful git commands
 
-git init 
+git init    -- initialize git repository
+
+git add --all or specific file name
 
 git add <filename>
 
