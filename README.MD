@@ -38,7 +38,8 @@ git remote add origin <http://github.com/myrep.git>
 git push origin -u main
 
 
----- list, checkout branch, pull changes from remote 
+--- list, checkout branch, pull changes from remote 
+
 git branch (to list the branch locally)
 
 git checkout master
@@ -59,7 +60,7 @@ git branch -d branch_name (local branch to delete)
 
 git push main --delete branch_name ( delete remote branch)
 
----- filter list of branches that has name eg. ops-*
+--- filter list of branches that has name eg. ops-*
 
 git branch | grep "ops-*"
 
